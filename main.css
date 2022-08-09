@@ -1,0 +1,43 @@
+@import url("./interface/reset.css");
+@import url("./interface/interface.css");
+@import url("./interface/photo-page.css");
+@import url("./photo-slider/photo-slider.css");
+
+html {
+    display: block;
+    margin: 0 auto;
+    width: 100vw;
+    min-width: 320px;
+}
+
+:root {
+    --text-color-dark: #212a35;
+    --text-color-light: #eaeceb;
+    --background-color-dark: #212a35;
+    --background-color-medium: grey;
+    --background-color-light: #eaeceb;    
+    font-family: Arial;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+section,
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+button {
+    background: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
